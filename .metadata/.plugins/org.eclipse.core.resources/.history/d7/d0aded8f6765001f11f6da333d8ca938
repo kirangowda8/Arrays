@@ -1,0 +1,29 @@
+
+public class ArrayInitialization {
+    int [] array;
+	public ArrayInitialization(int SizeOfArray) {
+		array = new int[SizeOfArray];
+		for (int i=0;i<array.length;i++) {
+			array[i] =Integer.MIN_VALUE;
+		}
+	}
+	
+	public void insert(int index,int valueToBeInserted) {
+		try {
+		if(array[index] ==Integer.MIN_VALUE) {
+			array[index]=valueToBeInserted;
+			System.out.println("Successfully Inserted");
+		}
+		else {
+			System.out.println("This cell is already occupied");
+		}
+		}
+		catch(ArrayIndexOutOfBoundsException e) {
+			System.out.println("Invalid index to access the array!");
+		}
+	}
+	
+	}
+  static void main(String[] args) {
+	insert
+}

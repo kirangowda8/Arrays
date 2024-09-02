@@ -1,0 +1,24 @@
+package com.arrays.basic;
+
+import java.util.Arrays;
+
+public class MiddleElements {
+
+	public static int[] middleElement(int [] array) {
+	  int [] newArray = new int [array.length];
+	  
+	  int count =0;
+	  for (int i=1;i<array.length-1;i++) {
+		  
+		  newArray[count] =array[i];
+		  
+	  }
+	  return Arrays.copyOf(newArray, count);
+	
+	}
+	
+	public static void main(String[] args) {
+		int [] array = {1,2,3,4,5,6};
+	middleElement(array);
+	}
+}

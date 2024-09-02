@@ -1,0 +1,16 @@
+package com.arrays;
+
+public class SearchInArray {
+
+	public String seraching(int value,int [] array) {
+		for (int i=0;i<array.length;i++) {
+			if (array[value]==array[i])
+				return "Value fount at the index of "+i;
+		    }
+
+	}
+		
+public static void main(String[] args) {
+	int [] array = {2,5,23,2,6};
+	
+}

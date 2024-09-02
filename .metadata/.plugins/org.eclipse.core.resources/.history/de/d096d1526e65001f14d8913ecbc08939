@@ -1,0 +1,12 @@
+package com.arrays;
+
+public class ArrayTravers {
+	public static void main(String[] args) {
+		
+		ArrayInitialization arrayInitialization = new ArrayInitialization(3);
+    for (int i=0 ;i<arrayInitialization.array.length;i++) {
+    	System.out.println(arrayInitialization.array[i]);
+    }
+   
+	}
+}

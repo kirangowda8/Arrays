@@ -1,0 +1,8 @@
+package com.arrays;
+
+public class SearchInArray {
+
+public static void main(String[] args) {
+	int [] array = {2,5,23,2,6};
+
+}
